@@ -1,0 +1,27 @@
+// Базовые стили
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  font-size: 14px;
+}
+
+// Контейнер
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+main {
+  padding: 30px 0;
+}
+
+@import "blocks/header";
+@import "blocks/main";

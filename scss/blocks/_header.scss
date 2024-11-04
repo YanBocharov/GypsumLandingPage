@@ -1,0 +1,58 @@
+.header {
+  position: relative;
+  padding: 25px 0;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left {
+    display: flex;
+    gap: 40px;
+    &-item {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  &__right {
+    display: flex;
+    flex-direction: row;
+  }
+  &__search {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-right: 40px;
+    &-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    input {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      font-size: 14px;
+      color: #fff;
+      width: 41px;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+  }
+  &__account {
+    display: flex;
+    &-text {
+      margin-right: 40px;
+      text-decoration: none;
+      color: #fff;
+    }
+    &-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 13px;
+    }
+  }
+}
